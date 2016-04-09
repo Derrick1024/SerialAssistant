@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gpbCOMSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="COMCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="COMCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 209</value>
+  </data>
+  <data name="COMCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="COMCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 40</value>
+  </data>
+  <data name="COMCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="COMCheck.Text" xml:space="preserve">
+    <value>检测串口</value>
+  </data>
+  <data name="&gt;&gt;COMCheck.Name" xml:space="preserve">
+    <value>COMCheck</value>
+  </data>
+  <data name="&gt;&gt;COMCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;COMCheck.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;COMCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="About.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="About.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 258</value>
+  </data>
+  <data name="About.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 40</value>
+  </data>
+  <data name="About.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="About.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;About.Name" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;About.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbnHEX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnHEX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 408</value>
+  </data>
+  <data name="rbnHEX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbnHEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="rbnHEX.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rbnHEX.Text" xml:space="preserve">
+    <value>HEX显示</value>
+  </data>
+  <data name="&gt;&gt;rbnHEX.Name" xml:space="preserve">
+    <value>rbnHEX</value>
+  </data>
+  <data name="&gt;&gt;rbnHEX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnHEX.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;rbnHEX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnChar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 377</value>
+  </data>
+  <data name="rbnChar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbnChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="rbnChar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbnChar.Text" xml:space="preserve">
+    <value>char显示</value>
+  </data>
+  <data name="&gt;&gt;rbnChar.Name" xml:space="preserve">
+    <value>rbnChar</value>
+  </data>
+  <data name="&gt;&gt;rbnChar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnChar.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;rbnChar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOpenCOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 209</value>
+  </data>
+  <data name="btnOpenCOM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenCOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 40</value>
+  </data>
+  <data name="btnOpenCOM.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnOpenCOM.Text" xml:space="preserve">
+    <value>打开串口</value>
+  </data>
+  <data name="&gt;&gt;btnOpenCOM.Name" xml:space="preserve">
+    <value>btnOpenCOM</value>
+  </data>
+  <data name="&gt;&gt;btnOpenCOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenCOM.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;btnOpenCOM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbbParity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 167</value>
+  </data>
+  <data name="cbbParity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbbParity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="cbbParity.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbbParity.Name" xml:space="preserve">
+    <value>cbbParity</value>
+  </data>
+  <data name="&gt;&gt;cbbParity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbParity.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;cbbParity.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbbStopBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 134</value>
+  </data>
+  <data name="cbbStopBits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbbStopBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="cbbStopBits.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbbStopBits.Name" xml:space="preserve">
+    <value>cbbStopBits</value>
+  </data>
+  <data name="&gt;&gt;cbbStopBits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbStopBits.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;cbbStopBits.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 169</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>数据校验：</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbbDataBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 101</value>
+  </data>
+  <data name="cbbDataBits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbbDataBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="cbbDataBits.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbbDataBits.Name" xml:space="preserve">
+    <value>cbbDataBits</value>
+  </data>
+  <data name="&gt;&gt;cbbDataBits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbDataBits.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;cbbDataBits.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 136</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>停止位：</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbbBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 68</value>
+  </data>
+  <data name="cbbBaudRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbbBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="cbbBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbbBaudRate.Name" xml:space="preserve">
+    <value>cbbBaudRate</value>
+  </data>
+  <data name="&gt;&gt;cbbBaudRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbBaudRate.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;cbbBaudRate.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 70</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>波特率：</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cbbCOMPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 35</value>
+  </data>
+  <data name="cbbCOMPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbbCOMPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="cbbCOMPort.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbbCOMPort.Name" xml:space="preserve">
+    <value>cbbCOMPort</value>
+  </data>
+  <data name="&gt;&gt;cbbCOMPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbCOMPort.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;cbbCOMPort.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 38</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>串口号：</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 103</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>数据位：</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gpbCOMSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="gpbCOMSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbCOMSet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbCOMSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 538</value>
+  </data>
+  <data name="gpbCOMSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gpbCOMSet.Text" xml:space="preserve">
+    <value>串口设置</value>
+  </data>
+  <data name="&gt;&gt;gpbCOMSet.Name" xml:space="preserve">
+    <value>gpbCOMSet</value>
+  </data>
+  <data name="&gt;&gt;gpbCOMSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbCOMSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpbCOMSet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnClearData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 204</value>
+  </data>
+  <data name="btnClearData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnClearData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 40</value>
+  </data>
+  <data name="btnClearData.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnClearData.Text" xml:space="preserve">
+    <value>清空接收数据</value>
+  </data>
+  <data name="&gt;&gt;btnClearData.Name" xml:space="preserve">
+    <value>btnClearData</value>
+  </data>
+  <data name="&gt;&gt;btnClearData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearData.Parent" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;btnClearData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbxDataRev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 35</value>
+  </data>
+  <data name="tbxDataRev.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbxDataRev.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxDataRev.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tbxDataRev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 190</value>
+  </data>
+  <data name="tbxDataRev.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbxDataRev.Name" xml:space="preserve">
+    <value>tbxDataRev</value>
+  </data>
+  <data name="&gt;&gt;tbxDataRev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxDataRev.Parent" xml:space="preserve">
+    <value>gpbDataRev</value>
+  </data>
+  <data name="&gt;&gt;tbxDataRev.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gpbDataRev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 17</value>
+  </data>
+  <data name="gpbDataRev.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbDataRev.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbDataRev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 249</value>
+  </data>
+  <data name="gpbDataRev.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gpbDataRev.Text" xml:space="preserve">
+    <value>数据接收</value>
+  </data>
+  <data name="&gt;&gt;gpbDataRev.Name" xml:space="preserve">
+    <value>gpbDataRev</value>
+  </data>
+  <data name="&gt;&gt;gpbDataRev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbDataRev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpbDataRev.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Name" xml:space="preserve">
+    <value>btnSendData</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Parent" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Name" xml:space="preserve">
+    <value>tbxDataSend</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Parent" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gpbDataSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 275</value>
+  </data>
+  <data name="gpbDataSend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbDataSend.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gpbDataSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 252</value>
+  </data>
+  <data name="gpbDataSend.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gpbDataSend.Text" xml:space="preserve">
+    <value>数据发送</value>
+  </data>
+  <data name="&gt;&gt;gpbDataSend.Name" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;gpbDataSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbDataSend.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpbDataSend.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 204</value>
+  </data>
+  <data name="btnSendData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 40</value>
+  </data>
+  <data name="btnSendData.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSendData.Text" xml:space="preserve">
+    <value>发送数据</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Name" xml:space="preserve">
+    <value>btnSendData</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.Parent" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;btnSendData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxDataSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="tbxDataSend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbxDataSend.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxDataSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 141</value>
+  </data>
+  <data name="tbxDataSend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Name" xml:space="preserve">
+    <value>tbxDataSend</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.Parent" xml:space="preserve">
+    <value>gpbDataSend</value>
+  </data>
+  <data name="&gt;&gt;tbxDataSend.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>81</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>748, 544</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SerialAssistantApplication</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
